@@ -4,7 +4,7 @@ import styles from './style.module.scss'
 const TestComponent: FC = () => {
     return (  
         <div>
-            <div className={styles.test1}>test12</div>
+            <div className={styles.test1}>test124</div>
         </div>
     );
 }
