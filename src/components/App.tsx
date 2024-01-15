@@ -25,7 +25,6 @@ export const App = () => {
     return (  
         <>
             <h1>PLATFORM={__PLATFORM__}</h1>
-            <h6>h6</h6>
             <div>
                 <img src={jpg} width={100} alt="jpg" />
                 <img src={png} width={100} alt="png" />

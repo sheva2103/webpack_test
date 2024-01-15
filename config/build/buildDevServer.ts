@@ -5,6 +5,7 @@ export function buildDevServer(options: BuildOPtions): DevServerConfiguration {
     return {
         port: options.port ?? 3000,
         open: true,
-        historyApiFallback: true //для роутинка
+        historyApiFallback: true, //для роутинка,
+        hot: true
     }
 }
